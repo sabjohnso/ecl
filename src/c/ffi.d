@@ -145,9 +145,9 @@ static struct {
 #elif defined(X86_WIN64)
         {@':win64', FFI_WIN64},
 #elif defined(X86_ANY) || defined(X86) || defined(X86_64)
-        {@':cdecl', FFI_SYSV},
-        {@':sysv', FFI_SYSV},
-        {@':unix64', FFI_UNIX64},
+  {@':cdecl', FFI_UNIX64},
+  {@':sysv', FFI_UNIX64},
+  {@':unix64', FFI_UNIX64},
 #endif
 };
 
